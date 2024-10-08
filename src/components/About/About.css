@@ -1,0 +1,27 @@
+.content{
+    position: relative;
+    inset:0;
+    overflow: hidden;
+}
+
+.content::before{
+    content: "";
+    position: absolute;
+   inset: -30px;
+   border: 4px solid transparent;
+   border-left: 4px solid blueviolet;
+   border-right: 4px solid blueviolet;
+   border-radius: 50%;
+   animation: any 5s linear infinite;
+   z-index: 1;
+   pointer-events: none;
+}
+
+@keyframes any{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}

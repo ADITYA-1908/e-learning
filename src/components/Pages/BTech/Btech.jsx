@@ -5,7 +5,7 @@ const courseData = [
   {
     id: 20,
     title: "Engineering Mathematics-I",
-    imageUrl: "../public/images-core/EM1.jpeg",
+    imageUrl: "https://drive.google.com/file/d/1UQejGYV4zn8U_Us0Jpet5IhkAqR8hU43/view?usp=drive_link",
     enrollUrl: ["https://youtube.com/playlist?list=PLU6SqdYcYsfINU_Y9CMp1pZ827ZB1U-Xn&feature=shared"
     ]
   },
@@ -175,7 +175,7 @@ const CourseCard = ({ title, imageUrl, enrollUrl }) => (
     <div className="p-4 text-center flex-grow">
       <h5 className="text-xl font-semibold mb-2">{title}</h5>
     </div>
-    <div className="px-4 pb-4 flex space-x-3">``
+    <div className="px-4 pb-4 flex space-x-3">
       {enrollUrl.map((url, index) => (
         <EnrollButton key={index} url={url} index={index} />
       ))}

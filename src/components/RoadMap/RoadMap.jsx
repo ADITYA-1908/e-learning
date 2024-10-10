@@ -16,87 +16,87 @@ const courseData = [
   {
     id: 10,
     title: "Javascript",
-    pdfPaths: ["../public/PDF/javascript.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/1LgvLWOZxWMcRTHjW_wGMTSbfB62X0AP6/view?usp=drive_link"]
   },
   {
     id: 13,
     title: "React.js",
-    pdfPaths: ["../public/PDF/react.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/1SuNRmQWRD6EZV1WQAGeMmmze1y17xrKG/view?usp=drive_link"]
   },
 
   {
     id: 12,
     title: "Node.js",
-    pdfPaths: ["../public/PDF/nodejs.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/1ts_iGrbbVnUQ5iR82inUO8JE_CzbC9lA/view?usp=drive_link"]
   },
   {
     id: 16,
     title: "MongoDB",
-    pdfPaths: ["../public/PDF/mongodb.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/1OibJSH3dZt7yMrWz94qI2IfFu_C-0JVM/view?usp=drive_link"]
   },
   {
     id: 2,
     title: "Frontend Developer",
-    pdfPaths: ["../public/PDF/frontend.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/129OF2xe2T2yDzaO0wyBS6WfNFKW0d6P5/view?usp=drive_link"]
   },
   {
     id: 3,
     title: "Backend Developer",
-    pdfPaths: ["../public/PDF/backend.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/1NvTfCPInj8OTXZOQ5SrDOUmxGqeJHs25/view?usp=drive_link"]
   },
 
   {
     id: 4,
     title: "Full Stack Developer",
-    pdfPaths: ["../public/PDF/full-stack.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/1UgdNXAoN5QD-gLUZgSLEnQJqwPmHkCDG/view?usp=drive_link"]
   },
 
   {
     id: 5,
     title: "Cyber Security",
-    pdfPaths: ["../public/PDF/cyber-security.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/1QtclVYAb0mTVXfDBuuGBDf2lAC8sOpIU/view?usp=drive_link"]
   },
   {
     id: 6,
     title: "Data Analyst",
-    pdfPaths: ["../public/PDF/data-analyst.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/12EDAkJnZUhbjm0g6i-UewvkGQwMXq6Le/view?usp=drive_link"]
   },
   {
     id: 12,
     title: "Blockchain Developer",
-    pdfPaths: ["../public/PDF/blockchain.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/1WSmIArnMWno_4cU9LrM9--QH-E5RAGt1/view?usp=drive_link"]
   },
 
   {
     id: 8,
     title: "Game Development",
-    pdfPaths: ["../public/PDF/game-developer.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/1mKglbXUT2lqY6oAwchc90ARFeK5HqgYM/view?usp=drive_link"]
   },
   {
     id: 9,
     title: "UI-UXs Developert",
-    pdfPaths: ["../public/PDF/ux-design.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/1T9zKNZL0uVtEV8J8KA7lyjOwfbuvyOeC/view?usp=drive_link"]
   },
   
-  {
+  {u
     id: 11,
     title: "Python Developer",
-    pdfPaths: ["../public/PDF/python.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/1vkUBor_DroKWzPVjnwNDaVp-6LZs0yt7/view?usp=drive_link"]
   },
   {
     id: 14,
     title: "C++",
-    pdfPaths: ["../public/PDF/cpp.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/1ordd-bdsdqfNzkdcqeJziEEj_Z73BgLD/view?usp=drive_link"]
   },
   {
     id: 15,
     title: "AWS",
-    pdfPaths: ["../public/PDF/aws.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/1mSsyp_7NRvZJRjo5sz40Aho-AjhiFKBk/view?usp=drive_link"]
   },
   {
     id: 16,
     title: "SQL",
-    pdfPaths: ["../public/PDF/sql.pdf"]
+    pdfPaths: ["https://drive.google.com/file/d/1ksrqCgfBiqguoFIbXJnffGbshiCpWwFP/view?usp=drive_link"]
   },
 
 

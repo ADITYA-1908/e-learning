@@ -1,5 +1,9 @@
 import React from 'react';
 import book from '../Image/book.png';
+import Coding from '../Image/coding.png';
+import Lecture from '../Image/lecture.png';
+import Rodemap from '../Image/road-map.png';
+
 
 const CardItem = ({ icon, title }) => (
     <div className="p-4 flex justify-center "> {/* Center the card within its parent */}
@@ -21,9 +25,9 @@ const CardsSection = () => {
                 {/* Responsive grid layout with manual column settings */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 custom-min-width lg:grid-cols-4 xl:grid-cols-4 gap-6 justify-items-center">
                     <CardItem icon={book} title="3 Courses" />
-                    <CardItem icon={book} title="40+ Lectures" />
-                    <CardItem icon={book} title="15+ Roadmaps" />
-                    <CardItem icon={book} title="25+ Language " />
+                    <CardItem icon={Lecture} title="40+ Lectures" />
+                    <CardItem icon={Rodemap} title="15+ Roadmaps" />
+                    <CardItem icon={Coding} title="25+ Language " />
                 </div>
             </div>
         </section>

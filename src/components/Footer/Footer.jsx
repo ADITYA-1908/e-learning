@@ -3,10 +3,10 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <footer className="bg-[#112e42]  w-full h-16 m-0 p-0 bottom-0">
+        <footer className="bg-[#112e42]  w-full h-full m-0 p-0 bottom-0">
             <div className="mx-auto w-full max-w-screen-xl px-4">
                 <div className="flex flex-row items-center justify-center gap-2 h-full">
-                    <span className="text-xl text-[#ededed] text-center pt-5  hover:text-[#00abf0]">
+                    <span className="text-lg text-[#ededed] text-center pt-5  hover:text-[#00abf0]">
                         Design and Crafted by adi_subham
                     </span>
                     <div className="flex items-center gap-1 pt-5">

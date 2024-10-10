@@ -5,7 +5,7 @@ const courseData = [
   {
     id: 20,
     title: "Engineering Mathematics-I",
-    imageUrl: "https://drive.google.com/file/d/1UQejGYV4zn8U_Us0Jpet5IhkAqR8hU43/view?usp=drive_link",
+    imageUrl: "https://www.google.com/imgres?q=engineering%20%2Cmathmatisc%20image&imgurl=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2Fv2%2FD5612AQGHN9di0DR55w%2Farticle-cover_image-shrink_600_2000%2Farticle-cover_image-shrink_600_2000%2F0%2F1702110049795%3Fe%3D2147483647%26v%3Dbeta%26t%3DFpqTyExtYSp44R_AarbFqZHs7Tk-Mj-_B2JBINDMChI&imgrefurl=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Funveiling-power-engineering-mathematics-key-unlocking-mythli-nmzrc&docid=9hmSJkVVo1eDPM&tbnid=MiBcIMmgVe7zTM&vet=12ahUKEwjs8_-ShYOJAxVhfGwGHRBTDk8QM3oECEUQAA..i&w=450&h=234&hcb=2&ved=2ahUKEwjs8_-ShYOJAxVhfGwGHRBTDk8QM3oECEUQAA",
     enrollUrl: ["https://youtube.com/playlist?list=PLU6SqdYcYsfINU_Y9CMp1pZ827ZB1U-Xn&feature=shared"
     ]
   },

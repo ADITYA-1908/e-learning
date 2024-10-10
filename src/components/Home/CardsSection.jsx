@@ -5,7 +5,7 @@ import Lecture from '../Image/lecture.png';
 import Rodemap from '../Image/road-map.png';
 
 
-const CardItem = ({ icon, title }) => (
+const CardItem = ({icon,title }) => (
     <div className="p-4 flex justify-center "> {/* Center the card within its parent */}
         {/* Fixed width and height for the cards */}
         <div className="w-[250px] h-[220px] p-14 text-center text-black font-bold bg-[#E9E581] rounded-lg transition-all duration-400 hover:bg-[#ededed] hover:shadow-lg pt-22">

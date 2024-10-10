@@ -1,7 +1,7 @@
 import React from 'react';
 import book from '../Image/book.png';
 import Coding from '../Image/coding.png';
-import Lecture from '../Image/lecture.png';
+import Lecture from '../Image/Lecture.png';
 import Rodemap from '../Image/road-map.png';
 
 

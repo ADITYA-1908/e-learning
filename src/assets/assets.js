@@ -13,7 +13,7 @@ import EM1 from "./EM1.jpeg";
 import EM2 from "./EM2.png";
 import FLAT from "./FLAT.jpeg";
 import IOT from "./IOT.jpeg";
-import Java from "./Java.jpeg";
+import Java from "./java.jpeg";
 import ML from "./ML.jpeg";
 import Os from "./Os.jpeg";
 import Python from "./Python.jpeg";

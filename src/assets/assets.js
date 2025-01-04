@@ -1,4 +1,3 @@
-//------------core images --------------------
 import AI from "./AI.jpeg";
 import BC from "./BC.jpeg";
 import CD from "./CD.jpeg";
@@ -22,7 +21,6 @@ import SE from "./SE.jpeg";
 import SPM from "./SPM.jpeg";
 import WT from "./WT.png";
 
-//-----------------Programming Language ----------------
 import Angular from "./Angular.png";
 import Bootstrap from "./bootstrap.png";
 import CPlus from "./CPlus.png";
@@ -35,7 +33,6 @@ import FireBase from "./firebase.png";
 import Flutter from "./flutter.png";
 import GO from "./go.jpeg";
 import HTML from "./HTML.png";
-import JAVA from "./java.jpeg";
 import JavaScript from "./javascript.jpeg";
 import Kotlin from "./kotlin.jpeg";
 import Kubernetes from "./kubernetes.jpeg";

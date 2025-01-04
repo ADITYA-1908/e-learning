@@ -16,7 +16,7 @@ import IOT from "./IOT.jpeg";
 import Java from "./java.jpeg";
 import ML from "./ML.jpeg";
 import Os from "./Os.jpeg";
-import Python from "./Python.jpeg";
+import Python from "./python.jpeg";
 import SE from "./SE.jpeg";
 import SPM from "./SPM.jpeg";
 import WT from "./WT.png";

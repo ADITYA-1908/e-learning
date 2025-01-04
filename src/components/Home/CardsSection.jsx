@@ -8,7 +8,7 @@ import Rodemap from '../Image/road-map.png';
 const CardItem = ({ icon, title }) => (
     <div className="p-4 flex justify-center "> {/* Center the card within its parent */}
         {/* Fixed width and height for the cards */}
-        <div className="w-[250px] h-[220px] p-14 text-center text-black font-bold bg-[#E9E581] rounded-lg transition-all duration-400 hover:bg-[#ededed] hover:shadow-lg pt-22">
+        <div className="w-[250px] h-[220px] p-14 text-center text-black font-bold bg-[#b0ecd5] rounded-lg transition-all duration-400 pt-22">
             <img src={icon} alt="" className="w-12 h-14 mx-auto " />
             {/* Ensure title appears in a single line */}
             <h6 className="mt-5 mb-0 text-xl text-center font-medium text-[#413960]  overflow-hidden text-ellipsis">

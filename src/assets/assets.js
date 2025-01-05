@@ -22,7 +22,7 @@ import SPM from "./SPM.jpeg";
 import WT from "./WT.png";
 
 import Angular from "./Angular.png";
-import Bootstrap from "./bootstrap.png";
+import Bootstrap from "./Bootstrap.png";
 import CPlus from "./CPlus.png";
 import CSS from "./CSS.png";
 import CyberSecurity from "./cybersecurity.jpeg";

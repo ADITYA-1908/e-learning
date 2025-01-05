@@ -21,7 +21,7 @@ const courseData = [
   {
     id: 3,
     title: "JAVA with DSA",
-    imageUrl: programmingLanguage.JAVA,
+    imageUrl: programmingLanguage.Java,
     enrollUrl: [
       "https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&feature=shared",
     ],

@@ -1,6 +1,6 @@
 import { Search } from "lucide-react";
 import React, { useEffect, useState } from "react";
-import { programmingLanguage } from "../../../assets/assets";
+import { coreSubject, programmingLanguage } from "../../../assets/assets";
 const courseData = [
   {
     id: 1,
@@ -21,7 +21,7 @@ const courseData = [
   {
     id: 3,
     title: "JAVA with DSA",
-    imageUrl: programmingLanguage.Java,
+    imageUrl: coreSubject.Java,
     enrollUrl: [
       "https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&feature=shared",
     ],

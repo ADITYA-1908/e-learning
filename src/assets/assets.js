@@ -61,7 +61,6 @@ export const programmingLanguage = {
   Flutter,
   GO,
   HTML,
-  Java,
   JavaScript,
   Kotlin,
   Kubernetes,

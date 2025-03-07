@@ -1,11 +1,11 @@
 import { Search } from "lucide-react";
 import React, { useEffect, useState } from "react";
-import { coreSubject, programmingLanguage } from "../../../assets/assets";
+import { Images } from "../../../assets/assets";
 const courseData = [
   {
     id: 1,
     title: "C Programming",
-    imageUrl: programmingLanguage.CP,
+    imageUrl: Images.CP,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR&feature=shared",
     ],
@@ -13,7 +13,7 @@ const courseData = [
   {
     id: 2,
     title: "C++ with DSA",
-    imageUrl: programmingLanguage.CPlus,
+    imageUrl: Images.CPlus,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA&feature=shared",
     ],
@@ -21,7 +21,7 @@ const courseData = [
   {
     id: 3,
     title: "JAVA with DSA",
-    imageUrl: coreSubject.Java,
+    imageUrl: Images.Java,
     enrollUrl: [
       "https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&feature=shared",
     ],
@@ -29,7 +29,7 @@ const courseData = [
   {
     id: 4,
     title: "Python",
-    imageUrl: programmingLanguage.Python,
+    imageUrl: Images.Python,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0&feature=shared",
       "https://youtube.com/playlist?list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&feature=shared",
@@ -38,7 +38,7 @@ const courseData = [
   {
     id: 5,
     title: "Django",
-    imageUrl: programmingLanguage.Django,
+    imageUrl: Images.Django,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLu71SKxNbfoDOf-6vAcKmazT92uLnWAgy&feature=shared",
     ],
@@ -46,7 +46,7 @@ const courseData = [
   {
     id: 6,
     title: "HTML",
-    imageUrl: programmingLanguage.HTML,
+    imageUrl: Images.HTML,
     enrollUrl: [
       "https://youtu.be/k7ELO356Npo?feature=shared",
       "https://youtube.com/playlist?list=PLu71SKxNbfoDBNF5s-WH6aLbthSEIMhMI&feature=shared",
@@ -55,7 +55,7 @@ const courseData = [
   {
     id: 7,
     title: "CSS",
-    imageUrl: programmingLanguage.CSS,
+    imageUrl: Images.CSS,
     enrollUrl: [
       "https://youtu.be/ESnrn1kAD4E?feature=shared",
       "https://youtube.com/playlist?list=PLhzIaPMgkbxBk9-drEC0MBPqEOXpVlwY4&feature=shared",
@@ -64,7 +64,7 @@ const courseData = [
   {
     id: 8,
     title: "Tailwind CSS",
-    imageUrl: programmingLanguage.Tailwind,
+    imageUrl: Images.Tailwind,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLUcsbZa0qzu0OrMJWIuhvibOPZm_IHGTl&feature=shared",
     ],
@@ -72,7 +72,7 @@ const courseData = [
   {
     id: 9,
     title: "Bootstrap",
-    imageUrl: programmingLanguage.Bootstrap,
+    imageUrl: Images.Bootstrap,
     enrollUrl: [
       "https://youtu.be/vpAJ0s5S2t0?feature=shared",
       "https://youtube.com/playlist?list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&feature=shared",
@@ -81,7 +81,7 @@ const courseData = [
   {
     id: 10,
     title: "JavaScript",
-    imageUrl: programmingLanguage.JavaScript,
+    imageUrl: Images.JavaScript,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&feature=shared",
       "https://youtube.com/playlist?list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW&feature=shared",
@@ -90,7 +90,7 @@ const courseData = [
   {
     id: 11,
     title: "React.js",
-    imageUrl: programmingLanguage.React,
+    imageUrl: Images.React,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&feature=shared",
     ],
@@ -98,13 +98,13 @@ const courseData = [
   {
     id: 12,
     title: "Redux.js",
-    imageUrl: programmingLanguage.Redux,
+    imageUrl: Images.Redux,
     enrollUrl: ["https://youtu.be/1i04-A7kfFI?feature=shared"],
   },
   {
     id: 13,
     title: "Next.js",
-    imageUrl: programmingLanguage.NextJs,
+    imageUrl: Images.NextJs,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&feature=shared",
       "https://youtube.com/playlist?list=PLu0W_9lII9agtWvR_TZdb_r0dNI8-lDwG&feature=shared",
@@ -113,7 +113,7 @@ const courseData = [
   {
     id: 14,
     title: "Express.js",
-    imageUrl: programmingLanguage.Express,
+    imageUrl: Images.Express,
     enrollUrl: [
       "https://youtu.be/7H_QH9nipNs?feature=shared",
       "https://youtu.be/WXI27H8oPUM?feature=shared",
@@ -123,13 +123,13 @@ const courseData = [
   {
     id: 15,
     title: "Node.js",
-    imageUrl: programmingLanguage.NodeJs,
+    imageUrl: Images.NodeJs,
     enrollUrl: ["https://youtu.be/LAUi8pPlcUM?feature=shared"],
   },
   {
     id: 16,
     title: "MongoDB",
-    imageUrl: programmingLanguage.Mongo,
+    imageUrl: Images.Mongo,
     enrollUrl: [
       "https://youtu.be/J6mDkcqU_ZE?feature=shared",
       "https://youtube.com/playlist?list=PLRAV69dS1uWQ6CZCehxKy0rjkqhQ2Z88t&feature=shared",
@@ -138,7 +138,7 @@ const courseData = [
   {
     id: 17,
     title: "Firebase",
-    imageUrl: programmingLanguage.FireBase,
+    imageUrl: Images.FireBase,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLinedj3B30sCw8Qjrct1DRglx4hWQx83C&feature=shared",
     ],
@@ -146,7 +146,7 @@ const courseData = [
   {
     id: 20,
     title: "SQL",
-    imageUrl: programmingLanguage.SQL,
+    imageUrl: Images.SQL,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLGf6Ram2AQh2GpckMjstVH6AaTm0kPfgI&feature=shared",
     ],
@@ -154,13 +154,13 @@ const courseData = [
   {
     id: 21,
     title: "PHP",
-    imageUrl: programmingLanguage.PHP,
+    imageUrl: Images.PHP,
     enrollUrl: ["https://youtu.be/1SnPKhCdlsU?feature=shared"],
   },
   {
     id: 22,
     title: "Cyber Security",
-    imageUrl: programmingLanguage.CyberSecurity,
+    imageUrl: Images.CyberSecurity,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLEiEAq2VkUUJfPOj5nRounXvf3n17PCft&feature=shared",
     ],
@@ -168,7 +168,7 @@ const courseData = [
   {
     id: 23,
     title: "Solidity",
-    imageUrl: programmingLanguage.Solidity,
+    imageUrl: Images.Solidity,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLWUCKsxdKl0oksYr6IG_wRsaSUySQC0ck&feature=shared",
     ],
@@ -176,7 +176,7 @@ const courseData = [
   {
     id: 24,
     title: "Ruby",
-    imageUrl: programmingLanguage.Ruby,
+    imageUrl: Images.Ruby,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLgPJX9sVy92yefe1xmyxgcyXjxmLHsSEV&feature=shared",
     ],
@@ -184,7 +184,7 @@ const courseData = [
   {
     id: 25,
     title: "Go",
-    imageUrl: programmingLanguage.GO,
+    imageUrl: Images.GO,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa&feature=shared",
     ],
@@ -192,7 +192,7 @@ const courseData = [
   {
     id: 26,
     title: "Kotlin",
-    imageUrl: programmingLanguage.Kotlin,
+    imageUrl: Images.Kotlin,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLsyeobzWxl7rooJFZhc3qPLwVROovGCfh&feature=shared",
     ],
@@ -200,13 +200,13 @@ const courseData = [
   {
     id: 27,
     title: "Kubernetes",
-    imageUrl: programmingLanguage.Kubernetes,
+    imageUrl: Images.Kubernetes,
     enrollUrl: ["https://www.youtube.com/live/YXfLAWGTI38?feature=shared"],
   },
   {
     id: 28,
     title: "DevOps",
-    imageUrl: programmingLanguage.Devops,
+    imageUrl: Images.Devops,
     enrollUrl: [
       "https://youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&feature=shared",
     ],
@@ -214,13 +214,13 @@ const courseData = [
   {
     id: 29,
     title: "Flutter",
-    imageUrl: programmingLanguage.Flutter,
+    imageUrl: Images.Flutter,
     enrollUrl: ["https://youtu.be/j-LOab_PzzU?feature=shared"],
   },
   {
     id: 30,
     title: "Machine Learning",
-    imageUrl: programmingLanguage.ML,
+    imageUrl: Images.ML,
     enrollUrl: ["https://youtu.be/JxgmHe2NyeY?feature=shared"],
   },
 

@@ -34,7 +34,7 @@ import Mongo from "./mongo.png";
 import NE from "./NE.jpg";
 import NextJs from "./nextjs.png";
 import NodeJs from "./nodejs.png";
-import Os from "./Os.jpeg";
+import OS from "./Os.jpeg";
 import PHP from "./php.jpeg";
 import Python from "./python.jpeg";
 import React from "./reactjs.png";
@@ -47,12 +47,16 @@ import SQL from "./sql.jpeg";
 import Tailwind from "./tailwind.png";
 import WT from "./WT.png";
 
-export const programmingLanguage = {
+export const Images = {
   Angular,
+  SE,
+  SPM,
+  WT,
   Bootstrap,
   CPlus,
   CP,
   CSS,
+  CD,
   CyberSecurity,
   Devops,
   Django,
@@ -60,6 +64,10 @@ export const programmingLanguage = {
   FireBase,
   Flutter,
   GO,
+  AI,
+  BC,
+  COA,
+  CNDC,
   HTML,
   JavaScript,
   Kotlin,
@@ -74,33 +82,35 @@ export const programmingLanguage = {
   React,
   Redux,
   Ruby,
-  Solidity,
-  SQL,
-  Tailwind,
-};
-
-//-----------------core subjects ----------------
-export const coreSubject = {
-  AI,
-  BC,
-  CD,
-  CNDC,
-  COA,
-  CP,
-  DAA,
-  DBMS,
-  DLD,
   DM,
   DSUC,
+  OS,
   EM1,
   EM2,
   FLAT,
   IOT,
   Java,
-  ML,
-  Os,
-  Python,
-  SE,
-  SPM,
-  WT,
+  Solidity,
+  SQL,
+  Tailwind,
+  DAA,
+  DBMS,
+  DLD,
 };
+
+// //-----------------core subjects ----------------
+// export const coreSubject = {
+//   AI,
+//   BC,
+//   CD,
+//   CNDC,
+//   COA,
+//   CP,
+
+//   ML,
+//   Os,
+//   Python,
+//   SE,
+//   SPM,
+//   WT,
+// };

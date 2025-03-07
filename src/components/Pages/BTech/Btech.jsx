@@ -1,11 +1,32 @@
 import { Search } from "lucide-react";
 import React, { useEffect, useState } from "react";
-import { Images } from "../../../assets/assets";
+import AI from "../../../assets/ai.jpeg";
+import BC from "../../../assets/BC.jpeg";
+import CD from "../../../assets/CD.jpeg";
+import CNDC from "../../../assets/CNDC.jpeg";
+import COA from "../../../assets/COA.jpeg";
+import CP from "../../../assets/CP.jpeg";
+import DAA from "../../../assets/DAA.png";
+import DBMS from "../../../assets/DBMS.png";
+import DLD from "../../../assets/DLD.jpeg";
+import DM from "../../../assets/DM.jpeg";
+import DSUC from "../../../assets/DSUC.jpeg";
+import EM1 from "../../../assets/EM1.jpeg";
+import EM2 from "../../../assets/EM2.png";
+import FLAT from "../../../assets/FLAT.jpeg";
+import IOT from "../../../assets/IOT.jpeg";
+import Java from "../../../assets/JAVA.jpeg";
+import ML from "../../../assets/ML.jpeg";
+import Os from "../../../assets/Os.jpeg";
+import Python from "../../../assets/python.jpeg";
+import SE from "../../../assets/SE.jpeg";
+import WT from "../../../assets/WT.png";
+
 const courseData = [
   {
     id: 20,
     title: "Engineering Mathematics-I",
-    imageUrl: Images.EM1,
+    imageUrl: EM1,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLU6SqdYcYsfINU_Y9CMp1pZ827ZB1U-Xn&feature=shared",
     ],
@@ -13,7 +34,7 @@ const courseData = [
   {
     id: 19,
     title: "Engineering Mathematics-II",
-    imageUrl: Images.EM2,
+    imageUrl: EM2,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLU6SqdYcYsfKqa52m3wyMZb1KVWuZsA2T&feature=shared",
     ],
@@ -21,7 +42,7 @@ const courseData = [
   {
     id: 19,
     title: "Descrete Mathematics",
-    imageUrl: Images.DM,
+    imageUrl: DM,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3&feature=shared",
       "https://youtube.com/playlist?list=PLU6SqdYcYsfJ27O0dvuMwafS3X8CecqUg&feature=shared",
@@ -31,13 +52,13 @@ const courseData = [
   {
     id: 1,
     title: "C Programming",
-    imageUrl: Images.CP,
+    imageUrl: CP,
     enrollUrl: ["https://youtu.be/irqbmMNs2Bo?feature=shared"],
   },
   {
     id: 2,
     title: "Data Structure using C (DSUC)",
-    imageUrl: Images.DSUC,
+    imageUrl: DSUC,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&feature=shared",
       "https://youtube.com/playlist?list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu&feature=shared",
@@ -46,7 +67,7 @@ const courseData = [
   {
     id: 3,
     title: "Computer Network and Data Communication (CNDC)",
-    imageUrl: Images.CNDC,
+    imageUrl: CNDC,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_&feature=shared",
       "https://youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx&feature=shared",
@@ -55,7 +76,7 @@ const courseData = [
   {
     id: 4,
     title: "DataBase Management System (DBMS)",
-    imageUrl: Images.DBMS,
+    imageUrl: DBMS,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLrjkTql3jnm-CLxHftqLgkrZbM8fUt0vn&feature=shared",
       "https://youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y&feature=shared",
@@ -64,7 +85,7 @@ const courseData = [
   {
     id: 5,
     title: "Digital Logic Circuit (DLD)",
-    imageUrl: Images.DLD,
+    imageUrl: DLD,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm&feature=shared",
     ],
@@ -72,7 +93,7 @@ const courseData = [
   {
     id: 6,
     title: "Computer Organisition and architecture (COA)",
-    imageUrl: Images.COA,
+    imageUrl: COA,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLBlnK6fEyqRgLLlzdgiTUKULKJPYc0A4q&feature=shared",
       "https://youtube.com/playlist?list=PLxCzCOWd7aiHMonh3G6QNKq53C6oNXGrX&feature=shared",
@@ -81,7 +102,7 @@ const courseData = [
   {
     id: 7,
     title: "Design alalysis and algorithm (DAA)",
-    imageUrl: Images.DAA,
+    imageUrl: DAA,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&feature=shared",
     ],
@@ -89,7 +110,7 @@ const courseData = [
   {
     id: 8,
     title: "OOPs Java",
-    imageUrl: Images.Java,
+    imageUrl: Java,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLqleLpAMfxGAdqZeY_4uVQOPCnAjhH-eT&feature=shared",
     ],
@@ -97,7 +118,7 @@ const courseData = [
   {
     id: 9,
     title: "Formal Language and Autometa Theory (FLAT)",
-    imageUrl: Images.FLAT,
+    imageUrl: FLAT,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLmXKhU9FNesSdCsn6YQqu9DmXRMsYdZ2T&feature=shared",
       "https://youtube.com/playlist?list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&feature=shared",
@@ -106,7 +127,7 @@ const courseData = [
   {
     id: 10,
     title: "Operating System (OS)",
-    imageUrl: Images.Os,
+    imageUrl: Os,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p&feature=shared",
       "https://youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O&feature=shared",
@@ -115,7 +136,7 @@ const courseData = [
   {
     id: 11,
     title: "Python ",
-    imageUrl: Images.Python,
+    imageUrl: Python,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLdo5W4Nhv31bZSiqiOL5ta39vSnBxpOPT&feature=shared",
       "https://youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0&feature=shared",
@@ -124,7 +145,7 @@ const courseData = [
   {
     id: 12,
     title: "Artifical Intelligence (AI) ",
-    imageUrl: Images.AI,
+    imageUrl: AI,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLV8vIYTIdSnYsdt0Dh9KkD9WFEi7nVgbe&feature=shared",
     ],
@@ -133,7 +154,7 @@ const courseData = [
   {
     id: 13,
     title: "Internet of Things (IOT)",
-    imageUrl: Images.IOT,
+    imageUrl: IOT,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLgwJf8NK-2e6FvFUItZbGYnKiqjrlLpCb&feature=shared",
     ],
@@ -141,7 +162,7 @@ const courseData = [
   {
     id: 14,
     title: "Machine Learning (ML)",
-    imageUrl: Images.ML,
+    imageUrl: ML,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLmAmHQ-_5ySyQeEryrlomrEvOGNYN3TAL&feature=shared",
       "https://youtube.com/playlist?list=PLxCzCOWd7aiEXg5BV10k9THtjnS48yI-T&feature=shared",
@@ -150,7 +171,7 @@ const courseData = [
   {
     id: 15,
     title: "Software Engineer (SE)",
-    imageUrl: Images.SE,
+    imageUrl: SE,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLxCzCOWd7aiEed7SKZBnC6ypFDWYLRvB2&feature=shared",
     ],
@@ -158,7 +179,7 @@ const courseData = [
   {
     id: 16,
     title: "BlockChain and Crypto Currency(BCC)",
-    imageUrl: Images.BC,
+    imageUrl: BC,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLPIwNooIb9vgfXs-QkRYqqZbDXX-yLf59&feature=shared",
     ],
@@ -166,7 +187,7 @@ const courseData = [
   {
     id: 17,
     title: "Compiler Design (CD)",
-    imageUrl: Images.CD,
+    imageUrl: CD,
     enrollUrl: [
       "https://youtube.com/playlist?list=PL1QH9gyQXfguPNDTsnG90W2kBDQpYLDQr&feature=shared",
       "https://youtube.com/playlist?list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&feature=shared",
@@ -175,7 +196,7 @@ const courseData = [
   {
     id: 18,
     title: "Web Technologie (WT)",
-    imageUrl: Images.WT,
+    imageUrl: WT,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLV8vIYTIdSnbwIFENjqBK7yyAkSVSoLBC&feature=shared",
       "https://youtube.com/playlist?list=PLrjkTql3jnm8d1ddpVKifXO_fPjSKATCp&feature=shared",

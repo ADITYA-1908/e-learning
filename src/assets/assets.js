@@ -1,106 +1,48 @@
-// import AI from "./AI.jpeg";
-// import Angular from "./Angular.png";
-// import BC from "./BC.jpeg";
-// import Bootstrap from "./Bootstrap.png";
-// import CD from "./CD.jpeg";
-// import CNDC from "./CNDC.jpeg";
-// import COA from "./COA.jpeg";
-// import CP from "./CP.jpeg";
-// import CPlus from "./CPlus.png";
-// import CSS from "./CSS.png";
-// import CyberSecurity from "./cybersecurity.jpeg";
-// import DAA from "./DAA.png";
-// import DBMS from "./DBMS.png";
-// import Devops from "./devops.png";
-// import Django from "./django.png";
-// import DLD from "./DLD.jpeg";
-// import DM from "./DM.jpeg";
-// import DSUC from "./DSUC.jpeg";
-// import EM1 from "./EM1.jpeg";
-// import EM2 from "./EM2.png";
-// import Express from "./express.png";
-// import FireBase from "./firebase.png";
-// import FLAT from "./FLAT.jpeg";
-// import Flutter from "./flutter.png";
-// import GO from "./go.jpeg";
-// import HTML from "./HTML.png";
-// import IOT from "./IOT.jpeg";
-// import Java from "./JAVA.jpeg";
-// import JavaScript from "./javascript.jpeg";
-// import Kotlin from "./kotlin.jpeg";
-// import Kubernetes from "./kubernetes.jpeg";
-// import ML from "./ML.jpeg";
-// import Mongo from "./mongo.png";
-// import NE from "./NE.jpg";
-// import NextJs from "./nextjs.png";
-// import NodeJs from "./nodejs.png";
-// import Os from "./Os.jpeg";
-// import PHP from "./php.jpeg";
-// import Python from "./python.jpeg";
-// import React from "./reactjs.png";
-// import Redux from "./redux.jpeg";
-// import Ruby from "./ruby.png";
-// import SE from "./SE.jpeg";
-// import Solidity from "./solidity.png";
-// import SPM from "./SPM.jpeg";
-// import SQL from "./sql.jpeg";
-// import Tailwind from "./tailwind.png";
-// import WT from "./WT.png";
-
-// export const programmingLanguage = {
-//   Angular,
-//   Bootstrap,
-//   CPlus,
-//   CP,
-//   CSS,
-//   CyberSecurity,
-//   Devops,
-//   Django,
-//   Express,
-//   FireBase,
-//   Flutter,
-//   GO,
-//   HTML,
-//   JavaScript,
-//   Kotlin,
-//   Kubernetes,
-//   ML,
-//   Mongo,
-//   NE,
-//   NextJs,
-//   NodeJs,
-//   PHP,
-//   Python,
-//   React,
-//   Redux,
-//   Ruby,
-//   Solidity,
-//   SQL,
-//   Tailwind,
-// };
-
-// //-----------------core subjects ----------------
-// export const coreSubject = {
-//   AI,
-//   BC,
-//   CD,
-//   CNDC,
-//   COA,
-//   CP,
-//   DAA,
-//   DBMS,
-//   DLD,
-//   DM,
-//   DSUC,
-//   EM1,
-//   EM2,
-//   FLAT,
-//   IOT,
-//   Java,
-//   ML,
-//   Os,
-//   Python,
-//   SE,
-//   SPM,
-//   WT,
-// };
+// import AI from "../../../assets/ai.jpeg";
+// import Angular from "../../../assets/angular.png";
+// import BC from "../../../assets/blockChain.jpeg";
+// import Bootstrap from "../../../assets/bootstrap.png";
+// import CD from "../../../assets/compilerDesign.jpeg";
+// import CNDC from "../../../assets/computerNetwork.jpeg";
+// import COA from "../../../assets/COA.jpeg";
+// import CP from "../../../assets/cPlusPlus.jpeg";
+// import CPlus from "../../../assets/cprog.png";
+// import CSS from "../../../assets/css.png";
+// import CyberSecurity from "../../../assets/cybersecurity.jpeg";
+// import DAA from "../../../assets/design.png";
+// import DBMS from "../../../assets/dataBase.png";
+// import Devops from "../../../assets/devops.png";
+// import Django from "../../../assets/django.png";
+// import DLD from "../../../assets/DLD.jpeg";
+// import DM from "../../../assets/descrit.jpeg";
+// import DSUC from "../../../assets/dsuc.jpeg";
+// import EM1 from "../../../assets/engMath-1.jpeg";
+// import EM2 from "../../../assets/engMath-2.png";
+// import Express from "../../../assets/express.png";
+// import FireBase from "../../../assets/firebase.png";
+// import FLAT from "../../../assets/flat.jpeg";
+// import Flutter from "../../../assets/flutter.png";
+// import GO from "../../../assets/go.jpeg";
+// import HTML from "../../../assets/hyper.png";
+// import IOT from "../../../assets/iot.jpeg";
+// import Java from "../../../assets/java.jpeg";
+// import JavaScript from "../../../assets/javascript.jpeg";
+// import Kotlin from "../../../assets/kotlin.jpeg";
+// import Kubernetes from "../../../assets/kubernetes.jpeg";
+// import ML from "../../../assets/machineLearning.jpeg";
+// import Mongo from "../../../assets/mongo.png";
+// import NE from "../../../assets/NE.jpg";
+// import NextJs from "../../../assets/nextjs.png";
+// import NodeJs from "../../../assets/nodejs.png";
+// import Os from "../../../assets/operatingSystem.jpeg";
+// import PHP from "../../../assets/php.jpeg";
+// import Python from "../../../assets/python.jpeg";
+// import React from "../../../assets/reactjs.png";
+// import Redux from "../../../assets/redux.jpeg";
+// import Ruby from "../../../assets/ruby.png";
+// import SE from "../../../assets/softwareEng.jpeg";
+// import Solidity from "../../../assets/solidity.png";
+// import SPM from "../../../assets/softwareProjectjpeg";
+// import SQL from "../../../assets/sql.jpeg";
+// import Tailwind from "../../../assets/tailwind.png";
+// import WT from "../../../assets/webTech.png";

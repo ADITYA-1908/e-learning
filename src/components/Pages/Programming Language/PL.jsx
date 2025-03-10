@@ -1,9 +1,9 @@
 import { Search } from "lucide-react";
 import React, { useEffect, useState } from "react";
-import Bootstrap from "../../../assets/Bootstrap.png";
-import CP from "../../../assets/CP.jpeg";
-import CPlus from "../../../assets/CPlus.png";
-import CSS from "../../../assets/CSS.png";
+import Bootstrap from "../../../assets/bootstrap.png";
+import CP from "../../../assets/cPlusPlus.png";
+import CPlus from "../../../assets/cprog.jpeg";
+import CSS from "../../../assets/css.png";
 import CyberSecurity from "../../../assets/cybersecurity.jpeg";
 import Devops from "../../../assets/devops.png";
 import Django from "../../../assets/django.png";
@@ -11,18 +11,18 @@ import Express from "../../../assets/express.png";
 import FireBase from "../../../assets/firebase.png";
 import Flutter from "../../../assets/flutter.png";
 import GO from "../../../assets/go.jpeg";
-import HTML from "../../../assets/HTML.png";
-import Java from "../../../assets/JAVA.jpeg";
+import HTML from "../../../assets/hyper.png";
+import Java from "../../../assets/java.jpeg";
 import JavaScript from "../../../assets/javascript.jpeg";
 import Kotlin from "../../../assets/kotlin.jpeg";
 import Kubernetes from "../../../assets/kubernetes.jpeg";
-import ML from "../../../assets/ML.jpeg";
+import ML from "../../../assets/machineLearning.jpeg";
 import Mongo from "../../../assets/mongo.png";
 import NextJs from "../../../assets/nextjs.png";
 import NodeJs from "../../../assets/nodejs.png";
 import PHP from "../../../assets/php.jpeg";
 import Python from "../../../assets/python.jpeg";
-import reactJS from "../../../assets/reactjs.png";
+import Reactjs from "../../../assets/reactjs.png";
 import Redux from "../../../assets/redux.jpeg";
 import Ruby from "../../../assets/ruby.png";
 import Solidity from "../../../assets/solidity.png";
@@ -118,7 +118,7 @@ const courseData = [
   {
     id: 11,
     title: "React.js",
-    imageUrl: reactJS,
+    imageUrl: Reactjs,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&feature=shared",
     ],

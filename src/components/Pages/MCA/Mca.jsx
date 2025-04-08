@@ -11,12 +11,10 @@ import DSUC from "../../../assets/dsuc.jpeg";
 import IOT from "../../../assets/iot.jpeg";
 import Java from "../../../assets/java.jpeg";
 import ML from "../../../assets/machineLearning.jpeg";
-import Os from "../../../assets/operatingSystem.jpeg";
+import OS from "../../../assets/OS.jpeg";
 import Python from "../../../assets/python.jpeg";
-
 import SE from "../../../assets/softwareEng.jpeg";
 import WT from "../../../assets/webTech.png";
-
 const courseData = [
   {
     id: 1,
@@ -81,7 +79,7 @@ const courseData = [
   {
     id: 10,
     title: "Operating System (OS)",
-    imageUrl: Os,
+    imageUrl: OS,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p&feature=shared",
       "https://youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O&feature=shared",

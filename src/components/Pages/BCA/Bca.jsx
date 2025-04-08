@@ -11,9 +11,8 @@ import EM1 from "../../../assets/engMath-1.jpeg";
 import EM2 from "../../../assets/engMath-2.png";
 import Java from "../../../assets/java.jpeg";
 import ML from "../../../assets/machineLearning.jpeg";
-import Os from "../../../assets/operatingSystem.jpeg";
+import OS from "../../../assets/operatingSystem.jpeg";
 import Python from "../../../assets/python.jpeg";
-
 import SE from "../../../assets/softwareEng.jpeg";
 import WT from "../../../assets/webTech.png";
 
@@ -112,7 +111,7 @@ const courseData = [
   {
     id: 10,
     title: "Operating System (OS)",
-    imageUrl: Os,
+    imageUrl: OS,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p&feature=shared",
       "https://youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O&feature=shared",

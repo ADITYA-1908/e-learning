@@ -1,5 +1,5 @@
 import { Search } from "lucide-react";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import AI from "../../../assets/ai.jpeg";
 import BC from "../../../assets/blockChain.jpeg";
 import COA from "../../../assets/compArc.jpeg";
@@ -17,9 +17,8 @@ import FLAT from "../../../assets/flat.jpeg";
 import IOT from "../../../assets/iot.jpeg";
 import Java from "../../../assets/java.jpeg";
 import ML from "../../../assets/machineLearning.jpeg";
-import Os from "../../../assets/operatingSystem.jpeg";
+import OS from "../../../assets/operatingSystem.jpeg";
 import Python from "../../../assets/python.jpeg";
-
 import SE from "../../../assets/softwareEng.jpeg";
 import WT from "../../../assets/webTech.png";
 
@@ -128,7 +127,7 @@ const courseData = [
   {
     id: 10,
     title: "Operating System (OS)",
-    imageUrl: Os,
+    imageUrl: OS,
     enrollUrl: [
       "https://youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p&feature=shared",
       "https://youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O&feature=shared",

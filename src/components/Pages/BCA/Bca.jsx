@@ -1,19 +1,19 @@
 import { Search } from "lucide-react";
-import React, { useEffect, useState } from "react";
-import CNDC from "../../../assets/computerNetwork.jpeg";
+import { useEffect, useState } from "react";
+import CNDC from "../../../assets/computerNetwork.png";
 import CP from "../../../assets/cPlusPlus.png";
 import DBMS from "../../../assets/dataBase.png";
-import DM from "../../../assets/descrit.jpeg";
+import DM from "../../../assets/descrit.png";
 import DAA from "../../../assets/design.png";
-import DLD from "../../../assets/DLD.jpeg";
-import DSUC from "../../../assets/dsuc.jpeg";
-import EM1 from "../../../assets/engMath-1.jpeg";
+import DLD from "../../../assets/DLD.png";
+import DSUC from "../../../assets/dsuc.png";
+import EM1 from "../../../assets/engMath-1.png";
 import EM2 from "../../../assets/engMath-2.png";
-import Java from "../../../assets/java.jpeg";
-import ML from "../../../assets/machineLearning.jpeg";
-import OS from "../../../assets/operatingSystem.jpeg";
-import Python from "../../../assets/python.jpeg";
-import SE from "../../../assets/softwareEng.jpeg";
+import Java from "../../../assets/java.png";
+import ML from "../../../assets/machineLearning.png";
+import OS from "../../../assets/operatingSystem.png";
+import Python from "../../../assets/python.png";
+import SE from "../../../assets/softwareEng.png";
 import WT from "../../../assets/webTech.png";
 
 const courseData = [

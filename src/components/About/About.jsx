@@ -41,7 +41,7 @@ const AboutMe = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
-        Hi, I am <span className="text-blue-400">Ashwin</span>
+        Hi, I am <span className="text-blue-400">Aditya</span>
       </motion.h2>
       <motion.p
         className="text-center font-bold max-w-2xl mb-8"
